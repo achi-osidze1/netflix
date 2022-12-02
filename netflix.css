@@ -1,0 +1,1171 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(91, 91, 91);
+    border-radius: 5px;
+}
+
+.header{
+    bottom: 0;
+    height: 700px;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6) url('https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/a4c708d0-950d-4bb1-9763-5d6cc360b319/GE-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center/cover;
+	background-blend-mode: darken;
+}
+
+.head{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+}
+
+.logo{
+    height: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 1110px;
+}
+
+.select{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#option{
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+#opt{
+    background-color: gray;
+}
+
+.btn{
+    color: white;
+    border: none;
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    height: 40px;
+    padding: 7px 17px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 7px 5px 7px 0px black;
+    background-color: #fc323c;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.watch{
+    display: block;
+}
+
+.txt{
+    color: white;
+    font-size: 3.399rem;
+    width: 550px;
+    margin-top: 150px;
+    font-family:sans-serif;
+    margin-left: 45px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.txt1{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family:sans-serif;
+    margin-left: 99px;
+    line-height: 1.1;
+}
+
+.txt2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family:sans-serif;
+    line-height: 1.1;
+    position: relative;
+    right: 15px;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    margin-top: 20px;
+}
+
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+}
+
+.inp{
+    height: 70px;
+    width: 500px;
+    margin-right: 20px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+}
+
+#btn{
+    height: 70px;
+    width: 230px;
+    color: white;
+    border: none;
+    background-color: #e50914;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    font-size: x-large;
+    top: 4px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 7px 5px 7px 0px black;
+    background-color: #fc323c;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.tvcard{
+    display: flex;
+    justify-content: center;
+}
+
+.tvtxt{
+    display: block;
+}
+
+.p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-top: 120px;
+}
+
+.p1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 550px;
+    margin-right: 625px;
+}
+
+.tv{
+    display: flex;
+    justify-content: center;
+}
+
+.netflixtv{
+    display: flex;
+}
+
+.tvimg{
+    height: 420px;
+    position: relative;
+    left: 530px;
+    bottom: 300px;
+    z-index: 1000;
+}
+
+.video{
+    position: relative;
+    left: 45px;
+    bottom: 213px;
+    height: 235px;
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+}
+
+.netflixphone{
+    display: flex;
+}
+
+.phoneimg{
+    height: 400px;
+    margin-right: 750px;
+}
+
+.phonecard{
+    display: flex;
+    justify-content: center;
+}
+
+.phonecrd{
+    display: flex;
+    background-color: black;
+    width: 370px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+    position: relative;
+    bottom: 120px;
+    right: 380px;
+}
+
+.poster{
+    height: 90px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.strangerthings{
+    color: white;
+    font-family: sans-serif;
+    white-space: nowrap;
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+
+.downloading{
+    color: #0071eb;
+    font-family: sans-serif;
+    position: relative;
+    right: 154px;
+    top: 55px;
+}
+
+.tvcard1{
+    display: flex;
+    justify-content: center;
+}
+
+.tvtxt1{
+    display: block;
+    position: relative;
+    bottom: 500px;
+    left: 310px;
+}
+
+.p2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-top: 120px;
+    width: 550px;
+}
+
+.p3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 550px;
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.tvcard1{
+    display: flex;
+    justify-content: center;
+}
+
+.tvtxt1{
+    display: block;
+}
+
+.p4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-top: 120px;
+}
+
+.p5{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 550px;
+    margin-right: 600px;
+}
+
+.tv1{
+    display: flex;
+    justify-content: center;
+}
+
+.netflixtv1{
+    display: flex;
+    margin-top: 25px;
+}
+
+.tvimg1{
+    height: 420px;
+    position: relative;
+    left: 490px;
+    bottom: 300px;
+    z-index: 1000;
+}
+
+.video1{
+    position: relative;
+    left: 35px;
+    bottom: 263px;
+    height: 200px;
+}
+
+.container3{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.kids{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+}
+
+.kidsimg{
+    height: 400px;
+    margin-top: 30px;
+    margin-right: 660px;
+}
+
+.profiles{
+    display: flex;
+    justify-content: center;
+}
+
+.profilestxt{
+    display: block;
+    position: relative;
+    bottom: 440px;
+    left: 310px;
+}
+
+.p6{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-top: 120px;
+    width: 550px;
+}
+
+.p7{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 550px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 10px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.context{
+    display: flex;
+}
+
+.cntct{
+    color: #737373;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-right: 930px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.cntct:hover{
+    color: #969696;
+    text-decoration: underline;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    display: block;
+}
+
+.link ul li{
+    list-style: none;
+}
+
+.link ul li a{
+    color: #737373;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-size: small;
+}
+
+.link ul li a:hover{
+    text-decoration: underline;
+}
+
+#first{
+    position: relative;
+    right: 494px;
+    top: 25px;
+}
+
+#second{
+    position: relative;
+    right: 190px;
+    bottom: 97px;
+}
+
+#third{
+    position: relative;
+    left: 50px;
+    bottom: 218px;
+}
+
+#fourth{
+    position: relative;
+    left: 280px;
+    bottom: 340px;
+}
+
+@media screen and (max-width: 579px){
+    .header{
+        height: 600px;
+    }
+
+    .logo{
+        height: 30px;
+        object-fit: cover;
+        margin-left: 3px;
+        z-index: 1000;
+    }
+    
+    #option{
+        position: absolute;
+        right: 80px;
+        top: 20px;
+        height: 25px;
+        z-index: 1000;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 5px;
+        top: 20px;
+        height: 25px;
+        padding: 0px 5px;
+        z-index: 1000;
+    }
+
+    .title{
+        position: relative;
+        bottom: 30px;
+    }
+
+    .txt{
+        font-size: 1.6rem;
+        width: 350px;
+        position: relative;
+        right: 20px;
+    }
+    
+    .txt1{
+        font-size: 1rem;
+        position: relative;
+        right: 18px;
+    }
+    
+    .txt2{
+        font-size: 0.9rem;
+        width: 150px;
+        position: relative;
+        left: 3px;
+        text-align: center;
+    }
+
+    #form{
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .inp{
+        height: 45px;
+        width: 240px;
+        border-radius: 3px;
+        position: absolute;
+        right: -90px;
+        bottom: 10px;
+    }
+    
+    #btn{
+        height: 33px;
+        width: 100px;
+        border-radius: 3px;
+        position: relative;
+        left: 3px;
+        top: 33px;
+        font-size: small;
+    }
+
+    .container{
+        height: 500px;
+    }
+
+    .p{
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .p1{
+        font-size: 1rem;
+        width: 250px;
+        margin-left: 630px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .netflixtv{
+        margin-right: 860px;
+        margin-top: 270px;
+    }
+
+    .tvimg{
+        height: 200px;
+    }
+
+    .video{
+        height: 110px;
+        position: relative;
+        left: 300px;
+        bottom: 260px;
+    }
+
+    .container1{
+        height: 500px;
+    }
+    
+    .phoneimg{
+        height: 210px;
+        position: relative;
+        top: 200px;
+        left: 370px;
+    }
+
+    .phonecrd{
+        width: 220px;
+        height: 60px;
+        position: relative;
+        left: 2px;
+        top: 130px;
+    }
+    
+    .poster{
+        height: 48px;
+        margin-top: 4px;
+        position: relative;
+        right: 158px;
+    }
+    
+    .strangerthings{
+        font-size: small;
+        white-space: nowrap;
+        position: absolute;
+        top: 10px;
+        right: 70px;
+    }
+    
+    .downloading{
+        position: absolute;
+        top: 30px;
+        left: 55px;
+        font-size: small;
+    }
+    
+    .p2{
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        width: 280px;
+        margin-right: 620px;
+        margin-top: 280px;
+    }
+    
+    .p3{
+        font-size: 1rem;
+        width: 250px;
+        margin-right: 630px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .container2{
+        height: 500px;
+    }
+
+    .p4{
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .p5{
+        font-size: 1rem;
+        width: 250px;
+        margin-left: 595px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .netflixtv1{
+        margin-right: 820px;
+        margin-top: 270px;
+    }
+
+    .tvimg1{
+        height: 200px;
+    }
+
+    .video1{
+        height: 90px;
+        position: relative;
+        left: 275px;
+        bottom: 280px;
+    }
+
+    .container3{
+        height: 500px;
+    }
+    
+    .kidsimg{
+        height: 210px;
+        position: relative;
+        top: 200px;
+        left: 335px;
+    }
+
+    .p6{
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        width: 280px;
+        margin-right: 620px;
+        margin-top: 280px;
+    }
+    
+    .p7{
+        font-size: 1rem;
+        width: 250px;
+        margin-right: 630px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .footer .nav{
+        flex-direction: column;
+        width: 0;
+    }
+
+    .cntct{
+        position: relative;
+        left: 398px;
+        white-space: nowrap;
+        font-size: small;
+        bottom: 40px;
+    }
+
+    #first{
+        margin-left: 360px;
+        position: relative;
+        top: -30px;
+        font-size: small;
+    }
+
+    #second{
+        margin-left: 57px;
+        position: relative;
+        top: -35px;
+        font-size: small;
+    }
+
+    #third{
+        left: 50px;
+        position: relative;
+        top: -304px;
+        font-size: small;
+    }
+
+    #fourth{
+        left: 50px;
+        position: relative;
+        top: -304px;
+        font-size: small;
+    }
+
+}
+
+@media screen and (min-width: 580px) and (max-width: 1024px){  
+    .header{
+        height: 600px;
+    }
+    
+    .logo{
+        height: 40px;
+        margin-left: 10px;
+        z-index: 1000;
+    }
+    
+    #option{
+        position: absolute;
+        right: 120px;
+        top: 20px;
+        z-index: 1000;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        z-index: 1000;
+    }
+
+    .title{
+        position: relative;
+        bottom: 60px;
+    }
+
+    .txt{
+        font-size: 2rem;
+        width: 350px;
+        position: relative;
+        right: 15px;
+    }
+    
+    .txt1{
+        font-size: 1.3rem;
+        position: relative;
+        right: 50px;
+    }
+    
+    .txt2{
+        font-size: 1.1rem;
+        width: 250px;
+        position: relative;
+        left: 1px;
+        text-align: center;
+    }
+
+    #form{
+        position: relative;
+        bottom: 65px;
+    }
+    
+    .inp{
+        height: 45px;
+        border-radius: 3px;
+        width: 360px;
+        margin-left: 130px;
+    }
+    
+    #btn{
+        height: 33px;
+        width: 100px;
+        border-radius: 3px;
+        font-size: small;
+        position: relative;
+        top: 50px;
+        right: 250px;
+    } 
+
+    .container{
+        height: 800px;
+    }
+
+    .p{
+        font-size: 2.5rem;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    .p1{
+        font-size: 1.5rem;
+        width: 550px;
+        margin-left: 640px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .netflixtv{
+        margin-right: 600px;
+        margin-top: 310px;
+    }
+
+    .tvimg{
+        height: 400px;
+    }
+
+    .video{
+        height: 250px;
+        position: relative;
+        left: 68px;
+        bottom: 240px;
+    }
+
+    .container1{
+        height: 800px;
+    }
+    
+    .phoneimg{
+        height: 400px;
+        position: relative;
+        top: 300px;
+        left: 370px;
+    }
+
+    .phonecrd{
+        width: 350px;
+        height: 70px;
+        position: relative;
+        left: 1px;
+        top: 210px;
+    }
+    
+    .poster{
+        height: 60px;
+        margin-top: 4px;
+        position: relative;
+        right: 278px;
+    }
+    
+    .strangerthings{
+        font-size: medium;
+        white-space: nowrap;
+        position: absolute;
+        top: 10px;
+        right: 160px;
+    }
+    
+    .downloading{
+        position: absolute;
+        top: 37px;
+        left: 74px;
+        font-size: medium;
+    }
+    
+    .p2{
+        font-size: 2.5rem;
+        align-items: center;
+        text-align: center;
+        width: 600px;
+        margin-right: 630px;
+        margin-top: 130px;
+    }
+    
+    .p3{
+        font-size: 1.5rem;
+        width: 660px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        right: 320px;
+    }
+
+    .container2{
+        height: 800px;
+    }
+
+    .p4{
+        font-size: 2.5rem;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    .p5{
+        font-size: 1.5rem;
+        width: 550px;
+        margin-left: 610px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .netflixtv1{
+        margin-right: 620px;
+        margin-top: 360px;
+    }
+
+    .tvimg1{
+        height: 400px;
+    }
+
+    .video1{
+        height: 190px;
+        position: relative;
+        left: 58px;
+        bottom: 260px;
+    }
+
+    .container3{
+        height: 800px;
+    }
+    
+    .kidsimg{
+        height: 400px;
+        position: relative;
+        top: 300px;
+        left: 335px;
+    }
+    
+    .p6{
+        font-size: 2.5rem;
+        align-items: center;
+        text-align: center;
+        width: 600px;
+        margin-right: 630px;
+        margin-top: 130px;
+    }
+    
+    .p7{
+        font-size: 1.5rem;
+        width: 660px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        right: 320px;
+    }
+
+    .footer .nav{
+        flex-direction: column;
+        width: 0;
+    }
+
+    .cntct{
+        position: relative;
+        left: 230px;
+        white-space: nowrap;
+        bottom: 40px;
+    }
+
+    #first{
+        margin-left: 168px;
+        position: relative;
+        top: -30px;
+    }
+
+    #second{
+        margin-left: 27px;
+        position: relative;
+        bottom: 180px;
+    }
+
+    #third{
+        left: 40px;
+        position: relative;
+        top: -304px;
+    }
+
+    #fourth{
+        left: 250px;
+        position: relative;
+        bottom: 425px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .logo{
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    #option{
+        position: absolute;
+        right: 115px;
+        top: 20px;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+
+    .txt{
+        font-size: 3rem;
+        position: relative;
+        right: 30px;
+    }
+    
+    .txt1{
+        font-size: 1.5rem;
+    }
+    
+    .txt2{
+        font-size: 1.2rem;
+    }
+    
+    .inp{
+        height: 60px;
+        width: 460px;
+    }
+    
+    #btn{
+        height: 60px;
+        width: 210px;
+    }
+
+    .p1{
+        margin-right: 550px;
+    }
+
+    .tvimg{
+        position: relative;
+        left: 490px;
+    }
+    
+    .video{
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media (min-width: 1281px){
+    .logo{
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    #option{
+        position: absolute;
+        right: 120px;
+        top: 20px;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+}

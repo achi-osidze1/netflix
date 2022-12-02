@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/732/732228.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="netflix">
+        <div class="netflix-logo">
+           <a href="netflix.html"><img class="logo" src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png" alt=""></a>
+        </div>
+
+        <div class="login">
+            <div class="login-form">
+                <h1 class="text">Sign In</h1>
+                <div class="form">
+                    <form action="netflix.html" id="form">
+                        <div class="emailinp">
+                            <label for="email">
+                                <input type="text" name="email" id="email" required placeholder="Email Or Phone Number">
+                                <h6 id="h6e"></h6>
+                            </label>
+                        </div>
+                        <div class="passinp">
+                            <label for="password">
+                                <input type="text" id="password" placeholder="Password" required style="-webkit-text-security: square">
+                                <h6 id="h6p"></h6>
+                            </label>
+                        </div>
+                        <button class="btn">Sign In</button>
+                    </form>
+                </div>
+                
+                <div class="check">
+                    <label id="lbl" for="checkbox"><input type="checkbox" name="" id="checkbox">Remember Me</label>
+                    <p id="p">Need Help?</p>
+                </div>
+
+                <div class="signup-now">
+                    <p id="new">New To Netflix? <a id="link" href="netflix.html">Sign Up Now.</a></p>
+                    <p id="cptch">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a id="more" href="#">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
